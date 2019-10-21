@@ -1,0 +1,43 @@
+﻿2019-10-21T19:34:47.8604463+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-21T19:34:47.8604463+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-21T19:34:47.8604463+01:00;VSTestExecutionThread;Info;TestAdapter Location: D:\VisualStudio\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-21T19:34:47.9003374+01:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T19:34:47.9003374+01:00;VSTestExecutionThread;Info;Output folder configured to "D:\VisualStudio\RedditTestProject\TestResults" (default)
+2019-10-21T19:34:47.9003374+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-21T19:34:47.9621737+01:00;VSTestExecutionThread;Info;Log file path: D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T193447.log
+2019-10-21T19:34:47.9771325+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-21T19:34:48.0000720+01:00;Thread#13;Info;Checking license
+2019-10-21T19:34:48.0639011+01:00;Thread#13;Info;Evaluation mode: test execution starts in 11 seconds... (this delay is removed in the registered version)
+2019-10-21T19:34:59.0645648+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-21T19:34:59.0674720+01:00;Thread#13;Info;License check completed
+2019-10-21T19:34:59.0674720+01:00;Thread#13;Info;starting test run
+2019-10-21T19:34:59.0804374+01:00;Thread#13;Info;Discovering target: Default
+2019-10-21T19:34:59.0804374+01:00;Thread#13;Info;Discovering tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T19:34:59.4793726+01:00:Appdomain Disposed
+2019-10-21T19:34:59.4793726+01:00;Thread#13;Info;Discovered tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T19:34:59.4793726+01:00:Test Suite Dump
+2019-10-21T19:34:59.4803686+01:00:#0: Unnamed project/ - 
+2019-10-21T19:34:59.4803686+01:00:#1: Default - 
+2019-10-21T19:34:59.4803686+01:00:#2: RedditTestProject - 
+2019-10-21T19:34:59.4803686+01:00:#3: Login - 
+2019-10-21T19:34:59.5103171+01:00:#5: Invalid Password Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Password+Login
+2019-10-21T19:34:59.5103171+01:00:End: Test Suite Dump
+2019-10-21T19:34:59.5312609+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T19:34:59.5322586+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-21T19:34:59.5322586+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T19:34:59.5352228+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T19:34:59.5352228+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T19:34:59.5352228+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T19:34:59.5352228+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T19:34:59.5362488+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T19:34:59.5372173+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T19:34:59.5392118+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-21T19:34:59.5422043+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T19:34:59.5432032+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T19:34:59.5451963+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-21T19:34:59.6898350+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-21T19:34:59.8803010+01:00:Thread#0:T:-> Loading plugin D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-21T19:34:59.8902730+01:00:Thread#0:T:-> Using default config
+2019-10-21T19:35:02.1596268+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T19:35:05.9642992+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (3.8s)
+2019-10-21T19:35:05.9652966+01:00:Thread#0:B:And I click on the login button

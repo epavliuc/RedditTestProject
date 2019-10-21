@@ -4,6 +4,7 @@ using RedditTestProject.Pages;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using NUnit.Framework;
+using System.Threading;
 
 namespace RedditTestProject.Pages
 {
@@ -26,17 +27,12 @@ namespace RedditTestProject.Pages
         public void GivenIAmOnTheHomePage()
         {
             page.GoToPage();
-        }
-        
-        [Given(@"I click on the login button")]
-        public void GivenIClickOnTheLoginButton()
-        {
-            page.LoginBtn();
-        }
+        }       
         
         [Given(@"Input valid details")]
         public void GivenInputValidDetails()
         {
+            
             page.UsernameInput();
             page.ValidPasswordInput();
         }
@@ -44,19 +40,21 @@ namespace RedditTestProject.Pages
         [Given(@"I click on the sign in button")]
         public void GivenIClickOnTheSignInButton()
         {
-            page.SignIn();
+            page.LoginBtn();
+            Thread.Sleep(1000);
         }
         
         [Given(@"Input invalid password")]
         public void GivenInputInvalidPassword()
         {
+            page.UsernameInput();
             page.InvalidPasswordInput();
         }
         
         [Then(@"I should see the username on the homepage")]
         public void ThenIShouldSeeTheUsernameOnTheHomepage()
         {
-            page.ClickDropDownProfile();
+            //page.ClickDropDownProfile();
             Assert.IsTrue(page.ProfileMessage().Contains("epSparta"));
            
         }
@@ -64,7 +62,7 @@ namespace RedditTestProject.Pages
         [Then(@"I should see the correct error message")]
         public void ThenIShouldSeeTheCorrectErrorMessage()
         {
-            Assert.AreEqual("Incorrect password", page.ProfileMessage());
+            Assert.AreEqual("wrong password", page.InvalidPassword());
         }
 
         [Scope(Feature = "Login")]

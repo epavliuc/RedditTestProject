@@ -1,0 +1,125 @@
+﻿2019-10-21T19:29:02.7901649+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-21T19:29:02.7901649+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-21T19:29:02.7901649+01:00;VSTestExecutionThread;Info;TestAdapter Location: D:\VisualStudio\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-21T19:29:02.8190871+01:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T19:29:02.8190871+01:00;VSTestExecutionThread;Info;Output folder configured to "D:\VisualStudio\RedditTestProject\TestResults" (default)
+2019-10-21T19:29:02.8190871+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-21T19:29:02.8340488+01:00;VSTestExecutionThread;Info;Log file path: D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T192902.log
+2019-10-21T19:29:02.8410289+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-21T19:29:02.8450173+01:00;Thread#13;Info;Checking license
+2019-10-21T19:29:02.8609475+01:00;Thread#13;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2019-10-21T19:29:12.8628909+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-21T19:29:12.8658247+01:00;Thread#13;Info;License check completed
+2019-10-21T19:29:12.8658247+01:00;Thread#13;Info;starting test run
+2019-10-21T19:29:12.8727770+01:00;Thread#13;Info;Discovering target: Default
+2019-10-21T19:29:12.8737753+01:00;Thread#13;Info;Discovering tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T19:29:13.1390948+01:00:Appdomain Disposed
+2019-10-21T19:29:13.1390948+01:00;Thread#13;Info;Discovered tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T19:29:13.1390948+01:00:Test Suite Dump
+2019-10-21T19:29:13.1400629+01:00:#0: Unnamed project/ - 
+2019-10-21T19:29:13.1400629+01:00:#1: Default - 
+2019-10-21T19:29:13.1400629+01:00:#2: RedditTestProject - 
+2019-10-21T19:29:13.1400629+01:00:#3: Login - 
+2019-10-21T19:29:13.1620042+01:00:#5: Invalid Password Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Password+Login
+2019-10-21T19:29:13.1620042+01:00:End: Test Suite Dump
+2019-10-21T19:29:13.1769635+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T19:29:13.1789580+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-21T19:29:13.1789580+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T19:29:13.1809821+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T19:29:13.1809821+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T19:29:13.1809821+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T19:29:13.1809821+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T19:29:13.1819792+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T19:29:13.1829816+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T19:29:13.1849425+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-21T19:29:13.1859399+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T19:29:13.1869680+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T19:29:13.1879341+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-21T19:29:13.2647287+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-21T19:29:13.4253285+01:00:Thread#0:T:-> Loading plugin D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-21T19:29:13.4303194+01:00:Thread#0:T:-> Using default config
+2019-10-21T19:29:15.6522687+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T19:29:18.8736181+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (3.2s)
+2019-10-21T19:29:18.8746146+01:00:Thread#0:B:And I click on the login button
+2019-10-21T19:29:22.0302499+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheLoginButton() (3.2s)
+2019-10-21T19:29:22.0302499+01:00:Thread#0:B:And Input invalid password
+2019-10-21T19:29:22.0810616+01:00:Thread#0:T:error: Could not find element by: By.XPath: //*[@id='loginPassword']
+2019-10-21T19:29:22.0810616+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T19:29:22.0810616+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:22.0810616+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T19:29:22.0810616+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:22.1049687+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-10-21T19:29:22.1049687+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T19:29:22.1049687+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T19:29:22.1049687+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T19:29:22.1049687+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T19:29:22.1049687+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T19:29:22.1049687+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T19:29:22.1049687+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T19:29:22.1049687+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T19:29:22.1049687+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-21T19:29:24.4303547+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 11.165626 seconds
+2019-10-21T19:29:24.4313521+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-10-21T19:29:26.6677810+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T19:29:27.0594848+01:00:Thread#0:T:error: unknown error: cannot determine loading status
+2019-10-21T19:29:27.0594848+01:00:Thread#0:T:from disconnected: received Inspector.detached event
+2019-10-21T19:29:27.0594848+01:00:Thread#0:T:  (Session info: chrome=77.0.3865.120)
+2019-10-21T19:29:27.0594848+01:00:Thread#0:B:And I click on the login button
+2019-10-21T19:29:27.0594848+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:27.0594848+01:00:Thread#0:B:And Input invalid password
+2019-10-21T19:29:27.0594848+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:27.0604828+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T19:29:27.0604828+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:27.0604828+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T19:29:27.0604828+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:27.0604828+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T19:29:27.0604828+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T19:29:27.0604828+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T19:29:27.0604828+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T19:29:27.0604828+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T19:29:27.0604828+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T19:29:27.0614802+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T19:29:27.0614802+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T19:29:27.0614802+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-21T19:29:27.0784350+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 2.6470829 seconds
+2019-10-21T19:29:27.0784350+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-10-21T19:29:27.0784350+01:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-10-21T19:29:29.3929731+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T19:29:29.4986913+01:00:Thread#0:T:error: unknown error: cannot determine loading status
+2019-10-21T19:29:29.4986913+01:00:Thread#0:T:from disconnected: received Inspector.detached event
+2019-10-21T19:29:29.4986913+01:00:Thread#0:T:  (Session info: chrome=77.0.3865.120)
+2019-10-21T19:29:29.4986913+01:00:Thread#0:B:And I click on the login button
+2019-10-21T19:29:29.4996887+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:29.4996887+01:00:Thread#0:B:And Input invalid password
+2019-10-21T19:29:29.4996887+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:29.4996887+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T19:29:29.4996887+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:29.4996887+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T19:29:29.4996887+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T19:29:29.5006855+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T19:29:29.5006855+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T19:29:29.5006855+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-21T19:29:29.5006855+01:00:Thread#0:Scheduler: No more tests for thread
+2019-10-21T19:29:29.5206331+01:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 2.4421981 seconds
+2019-10-21T19:29:29.5335977+01:00:Appdomain Disposed
+2019-10-21T19:29:29.5355925+01:00:Trying to cancel thread
+2019-10-21T19:29:29.5355925+01:00:Thread cancelled
+2019-10-21T19:29:29.5415766+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-21T19:29:29.5415766+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T19:29:29.5415766+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-21T19:29:29.5475611+01:00;Thread#13;Info;test run finished
+2019-10-21T19:29:29.5475611+01:00;Thread#13;Info;publishing test results
+2019-10-21T19:29:29.5565360+01:00;Thread#13;Info;test results published
+2019-10-21T19:29:29.5565360+01:00;Thread#13;Info;generating reports
+2019-10-21T19:29:29.6652452+01:00;Thread#13;Info;Starting external report generation process
+2019-10-21T19:29:31.0102413+01:00;Thread#13;Info;Successfully generated reports.
+2019-10-21T19:29:31.0112390+01:00;Thread#13;Info;Successfully generated reports
+2019-10-21T19:29:31.0182205+01:00:Total: 1 (test executions: 3)
+2019-10-21T19:29:31.0192168+01:00:Succeeded: 0
+2019-10-21T19:29:31.0202139+01:00:Ignored: 0
+2019-10-21T19:29:31.0202139+01:00:Pending: 0
+2019-10-21T19:29:31.0202139+01:00:Skipped: 0
+2019-10-21T19:29:31.0202139+01:00:Failed: 1
+2019-10-21T19:29:31.0272089+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-21T19:29:31.0272089+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T192902.html'
+========== End of log file ==========

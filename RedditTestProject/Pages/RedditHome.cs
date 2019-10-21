@@ -12,26 +12,19 @@ namespace RedditTestProject.Pages
     {
         private readonly IWebDriver driver;
 
-        [FindsBy(How = How.XPath, Using = "//*[@id='SHORTCUT_FOCUSABLE_DIV']/div[1]/header/div/div[2]/div[2]/div[1]/a[1]")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[3]/div[2]/form/div[4]/button")]
         private IWebElement loginBtn;
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div/div/div[2]/div/form/fieldset[5]/button")]
-        private IWebElement signInBtn;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='SHORTCUT_FOCUSABLE_DIV']/div[2]/div/div/div/div[2]/div[5]/div[1]/div/div[2]")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[2]/div[3]/span[1]/a")]
         private IWebElement profileMessage;
 
-        [FindsBy(How = How.XPath, Using = "/html/body/div/div/div[2]/div/form/fieldset[2]/div")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[3]/div[2]/form/div[2]")]
         private IWebElement invalidPMessage;
 
-
-        
-
-
-        [FindsBy(How = How.Id, Using = "loginUsername")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[3]/div[2]/form/input[2]")]
         private IWebElement loginUsername;
 
-        [FindsBy(How = How.Id, Using = "loginPassword")]
+        [FindsBy(How = How.XPath, Using = "/html/body/div[3]/div[2]/form/input[3]")]
         private IWebElement loginPassword;
 
 
@@ -46,7 +39,7 @@ namespace RedditTestProject.Pages
 
         public void GoToPage()
         {
-            driver.Navigate().GoToUrl("https://www.reddit.com/");
+            driver.Navigate().GoToUrl("https://www.old.reddit.com/");
         }
 
         public void LoginBtn()
@@ -69,10 +62,6 @@ namespace RedditTestProject.Pages
             loginPassword.SendKeys("Sparta201");
         }
 
-        public void SignIn()
-        {
-            signInBtn.Click();
-        }
 
 
             public void ClickDropDownProfile()

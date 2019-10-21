@@ -1,0 +1,137 @@
+﻿2019-10-21T20:06:31.1324881+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-21T20:06:31.1324881+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-21T20:06:31.1324881+01:00;VSTestExecutionThread;Info;TestAdapter Location: D:\VisualStudio\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-21T20:06:31.1625682+01:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T20:06:31.1625682+01:00;VSTestExecutionThread;Info;Output folder configured to "D:\VisualStudio\RedditTestProject\TestResults" (default)
+2019-10-21T20:06:31.1625682+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-21T20:06:31.1783668+01:00;VSTestExecutionThread;Info;Log file path: D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T200631.log
+2019-10-21T20:06:31.1863444+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-21T20:06:31.1913314+01:00;Thread#13;Info;Checking license
+2019-10-21T20:06:31.2072896+01:00;Thread#13;Info;Evaluation mode: test execution starts in 8 seconds... (this delay is removed in the registered version)
+2019-10-21T20:06:39.2084331+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-21T20:06:39.2123351+01:00;Thread#13;Info;License check completed
+2019-10-21T20:06:39.2123351+01:00;Thread#13;Info;starting test run
+2019-10-21T20:06:39.2183184+01:00;Thread#13;Info;Discovering target: Default
+2019-10-21T20:06:39.2183184+01:00;Thread#13;Info;Discovering tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T20:06:39.4816161+01:00:Appdomain Disposed
+2019-10-21T20:06:39.4816161+01:00;Thread#13;Info;Discovered tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T20:06:39.4816161+01:00:Test Suite Dump
+2019-10-21T20:06:39.4826136+01:00:#0: Unnamed project/ - 
+2019-10-21T20:06:39.4826136+01:00:#1: Default - 
+2019-10-21T20:06:39.4826136+01:00:#2: RedditTestProject - 
+2019-10-21T20:06:39.4826136+01:00:#3: Login - 
+2019-10-21T20:06:39.5045536+01:00:#5: Invalid Password Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Password+Login
+2019-10-21T20:06:39.5045536+01:00:End: Test Suite Dump
+2019-10-21T20:06:39.5195422+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T20:06:39.5205393+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-21T20:06:39.5205393+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T20:06:39.5235315+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T20:06:39.5235315+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T20:06:39.5235315+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T20:06:39.5235315+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T20:06:39.5245324+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T20:06:39.5245324+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T20:06:39.5265235+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-21T20:06:39.5275220+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T20:06:39.5275220+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T20:06:39.5284899+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-21T20:06:39.6062816+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-21T20:06:39.7653618+01:00:Thread#0:T:-> Loading plugin D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-21T20:06:39.7703488+01:00:Thread#0:T:-> Using default config
+2019-10-21T20:06:41.9527184+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T20:06:44.0150226+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (2.0s)
+2019-10-21T20:06:44.0160203+01:00:Thread#0:B:And Input invalid password
+2019-10-21T20:06:44.1576425+01:00:Thread#0:T:done: LoginSteps.GivenInputInvalidPassword() (0.1s)
+2019-10-21T20:06:44.1576425+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T20:06:44.2124955+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheSignInButton() (0.1s)
+2019-10-21T20:06:44.2124955+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T20:06:44.3521212+01:00:Thread#0:T:error:   Expected string length 14 but was 0. Strings differ at index 0.
+2019-10-21T20:06:44.3551426+01:00:Thread#0:T:  Expected: "wrong password"
+2019-10-21T20:06:44.3561398+01:00:Thread#0:T:  But was:  <string.Empty>
+2019-10-21T20:06:44.3581343+01:00:Thread#0:T:  -----------^
+2019-10-21T20:06:44.3661141+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-10-21T20:06:44.3681107+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T20:06:44.3681107+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T20:06:44.3681107+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T20:06:44.3681107+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T20:06:44.3681107+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T20:06:44.3681107+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T20:06:44.3681107+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T20:06:44.3681107+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T20:06:44.3681107+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-21T20:06:46.6959255+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 7.0896439 seconds
+2019-10-21T20:06:46.6989174+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-10-21T20:06:48.9414117+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T20:06:50.9510567+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (2.0s)
+2019-10-21T20:06:50.9530506+01:00:Thread#0:B:And Input invalid password
+2019-10-21T20:06:51.0916806+01:00:Thread#0:T:done: LoginSteps.GivenInputInvalidPassword() (0.1s)
+2019-10-21T20:06:51.0946732+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T20:06:51.1495268+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheSignInButton() (0.1s)
+2019-10-21T20:06:51.1515216+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T20:06:51.1844322+01:00:Thread#0:T:error: Multiple failures or warnings in test:
+2019-10-21T20:06:51.1854296+01:00:Thread#0:T:  1)   Expected string length 14 but was 0. Strings differ at index 0.
+2019-10-21T20:06:51.1874248+01:00:Thread#0:T:  Expected: "wrong password"
+2019-10-21T20:06:51.1884216+01:00:Thread#0:T:  But was:  <string.Empty>
+2019-10-21T20:06:51.1894187+01:00:Thread#0:T:  -----------^
+2019-10-21T20:06:51.1914135+01:00:Thread#0:T:  2)   Expected string length 14 but was 0. Strings differ at index 0.
+2019-10-21T20:06:51.1924106+01:00:Thread#0:T:  Expected: "wrong password"
+2019-10-21T20:06:51.1944051+01:00:Thread#0:T:  But was:  <string.Empty>
+2019-10-21T20:06:51.1954028+01:00:Thread#0:T:  -----------^
+2019-10-21T20:06:51.1993931+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T20:06:51.1993931+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T20:06:51.1993931+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T20:06:51.1993931+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T20:06:51.1993931+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T20:06:51.1993931+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T20:06:51.1993931+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T20:06:51.1993931+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T20:06:51.1993931+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-21T20:06:53.5135984+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 6.814681 seconds
+2019-10-21T20:06:53.5155935+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-10-21T20:06:55.7408208+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T20:06:57.7159067+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (2.0s)
+2019-10-21T20:06:57.7179266+01:00:Thread#0:B:And Input invalid password
+2019-10-21T20:06:57.8570371+01:00:Thread#0:T:done: LoginSteps.GivenInputInvalidPassword() (0.1s)
+2019-10-21T20:06:57.8580351+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T20:06:57.9208665+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheSignInButton() (0.1s)
+2019-10-21T20:06:57.9228619+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T20:06:57.9647773+01:00:Thread#0:T:error: Multiple failures or warnings in test:
+2019-10-21T20:06:57.9667724+01:00:Thread#0:T:  1)   Expected string length 14 but was 0. Strings differ at index 0.
+2019-10-21T20:06:57.9687684+01:00:Thread#0:T:  Expected: "wrong password"
+2019-10-21T20:06:57.9697655+01:00:Thread#0:T:  But was:  <string.Empty>
+2019-10-21T20:06:57.9707620+01:00:Thread#0:T:  -----------^
+2019-10-21T20:06:57.9727565+01:00:Thread#0:T:  2)   Expected string length 14 but was 0. Strings differ at index 0.
+2019-10-21T20:06:57.9737548+01:00:Thread#0:T:  Expected: "wrong password"
+2019-10-21T20:06:57.9757493+01:00:Thread#0:T:  But was:  <string.Empty>
+2019-10-21T20:06:57.9777146+01:00:Thread#0:T:  -----------^
+2019-10-21T20:06:57.9787404+01:00:Thread#0:T:  3)   Expected string length 14 but was 0. Strings differ at index 0.
+2019-10-21T20:06:57.9807346+01:00:Thread#0:T:  Expected: "wrong password"
+2019-10-21T20:06:57.9817370+01:00:Thread#0:T:  But was:  <string.Empty>
+2019-10-21T20:06:57.9837277+01:00:Thread#0:T:  -----------^
+2019-10-21T20:06:57.9867191+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T20:06:57.9867191+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T20:06:57.9867191+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-21T20:06:57.9867191+01:00:Thread#0:Scheduler: No more tests for thread
+2019-10-21T20:07:00.3129087+01:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 6.7973152 seconds
+2019-10-21T20:07:00.3294298+01:00:Appdomain Disposed
+2019-10-21T20:07:00.3298632+01:00:Trying to cancel thread
+2019-10-21T20:07:00.3298632+01:00:Thread cancelled
+2019-10-21T20:07:00.3348497+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-21T20:07:00.3348497+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T20:07:00.3348497+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-21T20:07:00.3378723+01:00;Thread#13;Info;test run finished
+2019-10-21T20:07:00.3378723+01:00;Thread#13;Info;publishing test results
+2019-10-21T20:07:00.3428298+01:00;Thread#13;Info;test results published
+2019-10-21T20:07:00.3438263+01:00;Thread#13;Info;generating reports
+2019-10-21T20:07:00.4226157+01:00;Thread#13;Info;Starting external report generation process
+2019-10-21T20:07:01.7690174+01:00;Thread#13;Info;Successfully generated reports.
+2019-10-21T20:07:01.7710122+01:00;Thread#13;Info;Successfully generated reports
+2019-10-21T20:07:01.7809854+01:00:Total: 1 (test executions: 3)
+2019-10-21T20:07:01.7819828+01:00:Succeeded: 0
+2019-10-21T20:07:01.7839782+01:00:Ignored: 0
+2019-10-21T20:07:01.7839782+01:00:Pending: 0
+2019-10-21T20:07:01.7839782+01:00:Skipped: 0
+2019-10-21T20:07:01.7839782+01:00:Failed: 1
+2019-10-21T20:07:01.7909586+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-21T20:07:01.7909586+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T200631.html'
+========== End of log file ==========

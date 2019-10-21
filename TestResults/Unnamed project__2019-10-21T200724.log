@@ -1,0 +1,75 @@
+﻿2019-10-21T20:07:24.4521650+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-21T20:07:24.4521650+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-21T20:07:24.4521650+01:00;VSTestExecutionThread;Info;TestAdapter Location: D:\VisualStudio\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-21T20:07:24.4810878+01:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T20:07:24.4810878+01:00;VSTestExecutionThread;Info;Output folder configured to "D:\VisualStudio\RedditTestProject\TestResults" (default)
+2019-10-21T20:07:24.4810878+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-21T20:07:24.4961398+01:00;VSTestExecutionThread;Info;Log file path: D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T200724.log
+2019-10-21T20:07:24.5030287+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-21T20:07:24.5080152+01:00;Thread#13;Info;Checking license
+2019-10-21T20:07:24.5229763+01:00;Thread#13;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-10-21T20:07:37.5244927+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-21T20:07:37.5273990+01:00;Thread#13;Info;License check completed
+2019-10-21T20:07:37.5273990+01:00;Thread#13;Info;starting test run
+2019-10-21T20:07:37.5344101+01:00;Thread#13;Info;Discovering target: Default
+2019-10-21T20:07:37.5344101+01:00;Thread#13;Info;Discovering tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T20:07:37.7976763+01:00:Appdomain Disposed
+2019-10-21T20:07:37.7976763+01:00;Thread#13;Info;Discovered tests from assembly: D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T20:07:37.7986754+01:00:Test Suite Dump
+2019-10-21T20:07:37.7996714+01:00:#0: Unnamed project/ - 
+2019-10-21T20:07:37.7996714+01:00:#1: Default - 
+2019-10-21T20:07:37.7996714+01:00:#2: RedditTestProject - 
+2019-10-21T20:07:37.7996714+01:00:#3: Login - 
+2019-10-21T20:07:37.8216439+01:00:#5: Invalid Password Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Password+Login
+2019-10-21T20:07:37.8216439+01:00:End: Test Suite Dump
+2019-10-21T20:07:37.8365731+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T20:07:37.8375697+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-21T20:07:37.8375697+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T20:07:37.8405616+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T20:07:37.8405616+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T20:07:37.8405616+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T20:07:37.8405616+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T20:07:37.8405616+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T20:07:37.8415596+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T20:07:37.8435541+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-21T20:07:37.8445509+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T20:07:37.8445509+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T20:07:37.8455483+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-21T20:07:37.9263325+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-21T20:07:38.0859075+01:00:Thread#0:T:-> Loading plugin D:\VisualStudio\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-21T20:07:38.0908928+01:00:Thread#0:T:-> Using default config
+2019-10-21T20:07:40.2983001+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T20:07:42.6482110+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (2.3s)
+2019-10-21T20:07:42.6482110+01:00:Thread#0:B:And Input invalid password
+2019-10-21T20:07:42.7978139+01:00:Thread#0:T:done: LoginSteps.GivenInputInvalidPassword() (0.1s)
+2019-10-21T20:07:42.7978139+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T20:07:43.8529209+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheSignInButton() (1.1s)
+2019-10-21T20:07:43.8529209+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T20:07:43.8918122+01:00:Thread#0:T:done: LoginSteps.ThenIShouldSeeTheCorrectErrorMessage() (0.0s)
+2019-10-21T20:07:43.9047540+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T20:07:43.9047540+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T20:07:43.9047540+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-21T20:07:43.9047540+01:00:Thread#0:Scheduler: No more tests for thread
+2019-10-21T20:07:46.2280598+01:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 8.3007299 seconds
+2019-10-21T20:07:46.2440166+01:00:Appdomain Disposed
+2019-10-21T20:07:46.2460132+01:00:Trying to cancel thread
+2019-10-21T20:07:46.2460132+01:00:Thread cancelled
+2019-10-21T20:07:46.2500005+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-21T20:07:46.2500005+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T20:07:46.2500005+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-21T20:07:46.2509979+01:00;Thread#13;Info;test run finished
+2019-10-21T20:07:46.2509979+01:00;Thread#13;Info;publishing test results
+2019-10-21T20:07:46.2559858+01:00;Thread#13;Info;test results published
+2019-10-21T20:07:46.2559858+01:00;Thread#13;Info;generating reports
+2019-10-21T20:07:46.3298194+01:00;Thread#13;Info;Starting external report generation process
+2019-10-21T20:07:47.5231911+01:00;Thread#13;Info;Successfully generated reports.
+2019-10-21T20:07:47.5241891+01:00;Thread#13;Info;Successfully generated reports
+2019-10-21T20:07:47.5361571+01:00:Total: 1
+2019-10-21T20:07:47.5371536+01:00:Succeeded: 1
+2019-10-21T20:07:47.5381516+01:00:Ignored: 0
+2019-10-21T20:07:47.5381516+01:00:Pending: 0
+2019-10-21T20:07:47.5381516+01:00:Skipped: 0
+2019-10-21T20:07:47.5381516+01:00:Failed: 0
+2019-10-21T20:07:47.5471280+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-21T20:07:47.5471280+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\VisualStudio\RedditTestProject\TestResults\Unnamed project__2019-10-21T200724.html'
+========== End of log file ==========
