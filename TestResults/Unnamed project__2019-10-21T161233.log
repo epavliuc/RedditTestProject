@@ -1,0 +1,84 @@
+﻿2019-10-21T16:12:33.3844739+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-21T16:12:33.3844739+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-21T16:12:33.3844739+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-21T16:12:33.6128649+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T16:12:33.6138593+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults" (default)
+2019-10-21T16:12:33.6138593+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-21T16:12:33.7919975+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults\Unnamed project__2019-10-21T161233.log
+2019-10-21T16:12:33.8677947+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-21T16:12:33.9051661+01:00;Thread#13;Info;Checking license
+2019-10-21T16:12:34.0348161+01:00;Thread#13;Info;Evaluation mode: test execution starts in 5 seconds... (this delay is removed in the registered version)
+2019-10-21T16:12:39.0368793+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-21T16:12:39.0808364+01:00;Thread#13;Info;License check completed
+2019-10-21T16:12:39.0817752+01:00;Thread#13;Info;starting test run
+2019-10-21T16:12:39.1326441+01:00;Thread#13;Info;Discovering target: Default
+2019-10-21T16:12:39.1326441+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T16:12:41.9962301+01:00:Appdomain Disposed
+2019-10-21T16:12:41.9972263+01:00;Thread#13;Info;Discovered tests from assembly: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T16:12:42.0022030+01:00:Test Suite Dump
+2019-10-21T16:12:42.0081787+01:00:#0: Unnamed project/ - 
+2019-10-21T16:12:42.0081787+01:00:#1: Default - 
+2019-10-21T16:12:42.0081787+01:00:#2: RedditTestProject - 
+2019-10-21T16:12:42.0081787+01:00:#3: Login - 
+2019-10-21T16:12:42.2376316+01:00:#5: Invalid Password Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Password+Login
+2019-10-21T16:12:42.2385726+01:00:End: Test Suite Dump
+2019-10-21T16:12:42.4031423+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:12:42.4190936+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-21T16:12:42.4200955+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T16:12:42.4589763+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:12:42.4599749+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:12:42.4599749+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:12:42.4599749+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T16:12:42.4639575+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T16:12:42.4699446+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T16:12:42.4919016+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-21T16:12:42.5058782+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T16:12:42.5108383+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T16:12:42.5188168+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-21T16:12:43.0105003+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-21T16:12:44.7748567+01:00:Thread#0:T:-> Loading plugin C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-21T16:12:44.8107738+01:00:Thread#0:T:-> Using default config
+2019-10-21T16:12:57.3462432+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:13:22.2335520+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (24.6s)
+2019-10-21T16:13:22.2455122+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:13:28.4809166+01:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-10-21T16:13:28.4859036+01:00:Thread#0:B:And Input invalid password
+2019-10-21T16:13:28.4869004+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:13:28.4878932+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:13:28.4878932+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:13:28.4928863+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T16:13:28.4938830+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:13:29.7237108+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-10-21T16:13:29.7366777+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:13:29.7366777+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T16:13:29.7376742+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T16:13:29.7376742+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:13:29.7376742+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:13:29.7376742+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:13:29.7376742+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T16:13:29.7376742+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T16:13:29.7376742+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-21T16:13:39.0175930+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 56.0010406 seconds
+2019-10-21T16:13:39.1053541+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-10-21T16:13:48.4215174+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:14:15.9273199+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (27.5s)
+2019-10-21T16:14:15.9283204+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:14:21.2403345+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheLoginButton() (5.3s)
+2019-10-21T16:14:21.2423307+01:00:Thread#0:B:And Input invalid password
+2019-10-21T16:14:26.5332899+01:00:Thread#0:T:error: Could not find element by: By.Id: loginPassword
+2019-10-21T16:14:26.5352837+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:14:26.5382735+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:14:26.5392754+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T16:14:26.5412672+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:14:26.5492490+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:14:26.5492490+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T16:14:26.5492490+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T16:14:26.5492490+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:14:26.5502458+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:14:26.5502458+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:14:26.5502458+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T16:14:26.5502458+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T16:14:26.5502458+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-21T16:14:28.1082418+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 49.0028877 seconds
+2019-10-21T16:14:28.1092626+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-10-21T16:14:28.1122388+01:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.

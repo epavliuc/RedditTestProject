@@ -1,0 +1,185 @@
+﻿2019-10-21T16:07:51.3878605+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-21T16:07:51.3878605+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-21T16:07:51.3878605+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-21T16:07:51.6002943+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T16:07:51.6032707+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults" (default)
+2019-10-21T16:07:51.6042745+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-21T16:07:51.7529466+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults\Unnamed project__2019-10-21T160751.log
+2019-10-21T16:07:51.8317286+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-21T16:07:51.8786657+01:00;Thread#13;Info;Checking license
+2019-10-21T16:07:52.0152454+01:00;Thread#13;Info;Evaluation mode: test execution starts in 7 seconds... (this delay is removed in the registered version)
+2019-10-21T16:07:59.0171355+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-21T16:07:59.0659785+01:00;Thread#13;Info;License check completed
+2019-10-21T16:07:59.0659785+01:00;Thread#13;Info;starting test run
+2019-10-21T16:07:59.2873860+01:00;Thread#13;Info;Discovering target: Default
+2019-10-21T16:07:59.2873860+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T16:08:02.8357473+01:00:Appdomain Disposed
+2019-10-21T16:08:02.8357473+01:00;Thread#13;Info;Discovered tests from assembly: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-21T16:08:02.8427290+01:00:Test Suite Dump
+2019-10-21T16:08:02.8547094+01:00:#0: Unnamed project/ - 
+2019-10-21T16:08:02.8557017+01:00:#1: Default - 
+2019-10-21T16:08:02.8557017+01:00:#2: RedditTestProject - 
+2019-10-21T16:08:02.8557017+01:00:#3: Login - 
+2019-10-21T16:08:03.1065636+01:00:#4: Valid Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Valid+Login
+2019-10-21T16:08:03.1065636+01:00:#5: Invalid Password Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Password+Login
+2019-10-21T16:08:03.1075817+01:00:End: Test Suite Dump
+2019-10-21T16:08:03.2581767+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:08:03.2691467+01:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-10-21T16:08:03.2691467+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-21T16:08:03.3060377+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:08:03.3060377+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:08:03.3060377+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:08:03.3060377+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-21T16:08:03.3180049+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-21T16:08:03.3259945+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T16:08:03.3513397+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-21T16:08:03.3672943+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T16:08:03.3712794+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-21T16:08:03.3832501+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-21T16:08:05.7904394+01:00:Thread#0: Test #4/0 is started on thread #0
+2019-10-21T16:08:07.6331553+01:00:Thread#0:T:-> Loading plugin C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-21T16:08:07.8102152+01:00:Thread#0:T:-> Using default config
+2019-10-21T16:08:25.3336415+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:08:25.6928959+01:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2019-10-21T16:08:25.6978258+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:08:25.7008865+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:25.7018135+01:00:Thread#0:B:And Input valid details
+2019-10-21T16:08:25.7038151+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:25.7038151+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:08:25.7048759+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:25.7087970+01:00:Thread#0:B:Then I should see the username on the homepage
+2019-10-21T16:08:25.7097920+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:26.1685605+01:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-10-21T16:08:26.1765490+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:08:26.1765490+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-10-21T16:08:26.1765490+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-21T16:08:26.1765490+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:08:26.1765490+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:08:26.1765490+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:08:26.1765490+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-21T16:08:26.1775421+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-21T16:08:26.1775421+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-21T16:08:26.7918936+01:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 20.9964799 seconds
+2019-10-21T16:08:26.8018701+01:00:Thread#0: Test #4/1 is started on thread #0
+2019-10-21T16:08:34.5109112+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:08:34.5198863+01:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2019-10-21T16:08:34.5218792+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:08:34.5228763+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:34.5238764+01:00:Thread#0:B:And Input valid details
+2019-10-21T16:08:34.5258681+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:34.5268653+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:08:34.5278649+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:34.5288611+01:00:Thread#0:B:Then I should see the username on the homepage
+2019-10-21T16:08:34.5308533+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:34.5358401+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:08:34.5358401+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-10-21T16:08:34.5358401+01:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-10-21T16:08:34.5358401+01:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:08:34.5358401+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:08:34.5358401+01:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:08:34.5358401+01:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-10-21T16:08:34.5358401+01:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-10-21T16:08:34.5358401+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-21T16:08:34.9373286+01:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 8.1344598 seconds
+2019-10-21T16:08:34.9433080+01:00:Thread#0: Test #4/2 is started on thread #0
+2019-10-21T16:08:42.3469477+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:08:42.3529994+01:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2019-10-21T16:08:42.3539572+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:08:42.3549889+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:42.3559390+01:00:Thread#0:B:And Input valid details
+2019-10-21T16:08:42.3559390+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:42.3569825+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:08:42.3589308+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:42.3599133+01:00:Thread#0:B:Then I should see the username on the homepage
+2019-10-21T16:08:42.3609128+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:42.3639138+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:08:42.3639138+01:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-10-21T16:08:42.3639138+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T16:08:42.3639138+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:08:42.3639138+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:08:42.3639138+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:08:42.3639138+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T16:08:42.3639138+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T16:08:42.3639138+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-21T16:08:42.8366381+01:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 7.8933301 seconds
+2019-10-21T16:08:42.8386511+01:00:Thread#0: Test #5/0 is started on thread #0
+2019-10-21T16:08:50.2971120+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:08:50.3030999+01:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2019-10-21T16:08:50.3041080+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:08:50.3050946+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:50.3060909+01:00:Thread#0:B:And Input invalid password
+2019-10-21T16:08:50.3070889+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:50.3080851+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:08:50.3090827+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:50.3090827+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T16:08:50.3100734+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:50.3140707+01:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-10-21T16:08:50.3140707+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:08:50.3140707+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T16:08:50.3140707+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T16:08:50.3140707+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:08:50.3150639+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:08:50.3150639+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:08:50.3150639+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T16:08:50.3150639+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T16:08:50.3150639+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-21T16:08:50.8446431+01:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 8.005992 seconds
+2019-10-21T16:08:50.8466389+01:00:Thread#0: Test #5/1 is started on thread #0
+2019-10-21T16:08:58.2602104+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:08:58.2671806+01:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2019-10-21T16:08:58.2681770+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:08:58.2701679+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:58.2701679+01:00:Thread#0:B:And Input invalid password
+2019-10-21T16:08:58.2711834+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:58.2721805+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:08:58.2731766+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:58.2741735+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T16:08:58.2751701+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:08:58.2771655+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:08:58.2771655+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-10-21T16:08:58.2771655+01:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-10-21T16:08:58.2771655+01:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-21T16:08:58.2771655+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-10-21T16:08:58.2771655+01:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-10-21T16:08:58.2771655+01:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-10-21T16:08:58.2771655+01:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-10-21T16:08:58.2781621+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-21T16:08:58.7353950+01:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 7.8887561 seconds
+2019-10-21T16:08:58.7373901+01:00:Thread#0: Test #5/2 is started on thread #0
+2019-10-21T16:09:06.2654326+01:00:Thread#0:B:Given I am on the home page
+2019-10-21T16:09:06.2724007+01:00:Thread#0:T:error: Object reference not set to an instance of an object.
+2019-10-21T16:09:06.2733990+01:00:Thread#0:B:And I click on the login button
+2019-10-21T16:09:06.2754024+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:09:06.2764017+01:00:Thread#0:B:And Input invalid password
+2019-10-21T16:09:06.2773973+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:09:06.2783951+01:00:Thread#0:B:And I click on the sign in button
+2019-10-21T16:09:06.2783951+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:09:06.2793945+01:00:Thread#0:B:Then I should see the correct error message
+2019-10-21T16:09:06.2803919+01:00:Thread#0:T:skipped because of previous errors
+2019-10-21T16:09:06.2833859+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-21T16:09:06.2833859+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T16:09:06.2833859+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-21T16:09:06.2833859+01:00:Thread#0:Scheduler: No more tests for thread
+2019-10-21T16:09:06.7780488+01:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 8.0406587 seconds
+2019-10-21T16:09:07.0104258+01:00:Appdomain Disposed
+2019-10-21T16:09:07.0253874+01:00:Trying to cancel thread
+2019-10-21T16:09:07.0263807+01:00:Thread cancelled
+2019-10-21T16:09:07.0882185+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-21T16:09:07.0882185+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-21T16:09:07.0882185+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-21T16:09:07.1311015+01:00;Thread#13;Info;test run finished
+2019-10-21T16:09:07.1320978+01:00;Thread#13;Info;publishing test results
+2019-10-21T16:09:07.4741806+01:00;Thread#13;Info;test results published
+2019-10-21T16:09:07.4741806+01:00;Thread#13;Info;generating reports
+2019-10-21T16:09:08.3727881+01:00;Thread#13;Info;Starting external report generation process
+2019-10-21T16:09:21.1354367+01:00;Thread#13;Info;Successfully generated reports.
+2019-10-21T16:09:21.1434246+01:00;Thread#13;Info;Successfully generated reports
+2019-10-21T16:09:21.2063037+01:00:Total: 2 (test executions: 6)
+2019-10-21T16:09:21.2231991+01:00:Succeeded: 0
+2019-10-21T16:09:21.2281985+01:00:Ignored: 0
+2019-10-21T16:09:21.2321795+01:00:Pending: 0
+2019-10-21T16:09:21.2321795+01:00:Skipped: 0
+2019-10-21T16:09:21.2361732+01:00:Failed: 2
+2019-10-21T16:09:21.3209386+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-21T16:09:21.3219349+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults\Unnamed project__2019-10-21T160751.html'
+========== End of log file ==========
