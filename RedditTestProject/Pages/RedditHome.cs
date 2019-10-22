@@ -28,9 +28,6 @@ namespace RedditTestProject.Pages
         private IWebElement loginPassword;
 
 
-        
-
-
         public RedditHome(IWebDriver driver)
         {
             this.driver = driver;
@@ -61,15 +58,6 @@ namespace RedditTestProject.Pages
         {
             loginPassword.SendKeys("Sparta201");
         }
-
-
-
-            public void ClickDropDownProfile()
-            {
-                IWebElement dropDown = driver.FindElement(By.XPath("/html/body/div[6]/div"));
-                IList<IWebElement> dropDownList = dropDown.FindElements(By.ClassName("_1YWXCINvcuU7nk0ED-bta8"));
-                dropDownList[0].Click();
-            }
 
         public string ProfileMessage()
         {

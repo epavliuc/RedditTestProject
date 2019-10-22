@@ -54,9 +54,7 @@ namespace RedditTestProject.Pages
         [Then(@"I should see the username on the homepage")]
         public void ThenIShouldSeeTheUsernameOnTheHomepage()
         {
-            //page.ClickDropDownProfile();
-            Assert.IsTrue(page.ProfileMessage().Contains("epSparta"));
-           
+            Assert.IsTrue(page.ProfileMessage().Contains("epSparta"));          
         }
         
         [Then(@"I should see the correct error message")]
