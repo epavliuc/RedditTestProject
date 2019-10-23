@@ -44,9 +44,14 @@ namespace RedditTestProject.Pages
             loginBtn.Click();
         }
 
-        public void UsernameInput()
+        public void ValidUsernameInput()
         {
             loginUsername.SendKeys("epSparta");
+        }
+
+        public void InvalidUsernameInput()
+        {
+            loginUsername.SendKeys("epSpart");
         }
 
         public void ValidPasswordInput()

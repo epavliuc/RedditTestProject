@@ -1,0 +1,10 @@
+﻿2019-10-23T09:37:55.5657690+01:00;Thread#1;Info;Reading test run result from Json file "C:\Users\edbox\AppData\Local\Temp\tmp75ED.tmp".
+2019-10-23T09:37:55.5707190+01:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\edbox\AppData\Local\Temp\tmp75ED.tmp"
+2019-10-23T09:37:55.5707190+01:00;Thread#1;Info;Deserializing test run result
+2019-10-23T09:37:56.2037318+01:00;Thread#1;Info;Successfully deserialized test run result
+2019-10-23T09:37:56.2037318+01:00;Thread#1;Info;Loading test run result
+2019-10-23T09:37:56.2332639+01:00;Thread#1;Info;Successfully loaded test run result
+2019-10-23T09:37:56.2469291+01:00;Thread#1;Info;creating 1 report(s)
+2019-10-23T09:37:56.2469291+01:00;Thread#1;Info;generate Report ReportTemplate.cshtml
+2019-10-23T09:37:58.0852029+01:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

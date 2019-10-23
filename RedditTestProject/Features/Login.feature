@@ -13,3 +13,8 @@ Scenario: Invalid Password Login
 	And I click on the sign in button
 	Then I should see the correct error message
 
+Scenario: Invalid Email Login
+	Given I am on the home page
+	And Input invalid email
+	And I click on the sign in button
+	Then I should see the correct related error message 

@@ -1,0 +1,117 @@
+﻿2019-10-23T09:39:00.8024423+01:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-10-23T09:39:00.8024423+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.391 in Framework clr40 in x86 mode execution started
+2019-10-23T09:39:00.8024423+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\packages\SpecRun.Runner.3.0.391\tools\net45\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-10-23T09:39:00.8653246+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-23T09:39:00.8653246+01:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults" (default)
+2019-10-23T09:39:00.8663113+01:00;VSTestExecutionThread;Info;Profile: 
+2019-10-23T09:39:00.9211748+01:00;VSTestExecutionThread;Info;Log file path: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults\Unnamed project__2019-10-23T093900.log
+2019-10-23T09:39:00.9433826+01:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-10-23T09:39:00.9590775+01:00;Thread#13;Info;Checking license
+2019-10-23T09:39:01.0080525+01:00;Thread#13;Info;Evaluation mode: test execution starts in 7 seconds... (this delay is removed in the registered version)
+2019-10-23T09:39:08.0098379+01:00;Thread#13;Info;Evaluation delay finished.
+2019-10-23T09:39:08.0300417+01:00;Thread#13;Info;License check completed
+2019-10-23T09:39:08.0310538+01:00;Thread#13;Info;starting test run
+2019-10-23T09:39:08.0638999+01:00;Thread#13;Info;Discovering target: Default
+2019-10-23T09:39:08.0648988+01:00;Thread#13;Info;Discovering tests from assembly: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-23T09:39:08.8684339+01:00:Appdomain Disposed
+2019-10-23T09:39:08.8694263+01:00;Thread#13;Info;Discovered tests from assembly: C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\RedditTestProject.dll
+2019-10-23T09:39:08.8703887+01:00:Test Suite Dump
+2019-10-23T09:39:08.8714232+01:00:#0: Unnamed project/ - 
+2019-10-23T09:39:08.8714232+01:00:#1: Default - 
+2019-10-23T09:39:08.8714232+01:00:#2: RedditTestProject - 
+2019-10-23T09:39:08.8714232+01:00:#3: Login - 
+2019-10-23T09:39:08.9222904+01:00:#6: Invalid Email Login - TestAssembly:RedditTestProject/Feature:Login/Scenario:Invalid+Email+Login
+2019-10-23T09:39:08.9222904+01:00:End: Test Suite Dump
+2019-10-23T09:39:08.9582097+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-23T09:39:08.9621443+01:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-10-23T09:39:08.9621443+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-10-23T09:39:08.9701749+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-23T09:39:08.9711776+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-10-23T09:39:08.9711776+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-10-23T09:39:08.9711776+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-10-23T09:39:08.9731683+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-10-23T09:39:08.9751628+01:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-10-23T09:39:08.9801402+01:00:Thread #0: creating new test thread executor for RedditTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-10-23T09:39:08.9842355+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-23T09:39:08.9862598+01:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-10-23T09:39:08.9890773+01:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-10-23T09:39:09.1287001+01:00:Thread#0: Test #6/0 is started on thread #0
+2019-10-23T09:39:09.4008503+01:00:Thread#0:T:-> Loading plugin C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\RedditTestProject\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-10-23T09:39:09.4078719+01:00:Thread#0:T:-> Using default config
+2019-10-23T09:39:15.0539580+01:00:Thread#0:B:Given I am on the home page
+2019-10-23T09:39:19.3381926+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (4.2s)
+2019-10-23T09:39:19.3411816+01:00:Thread#0:B:And Input invalid email
+2019-10-23T09:39:20.5917396+01:00:Thread#0:T:done: LoginSteps.GivenInputInvalidEmail() (1.2s)
+2019-10-23T09:39:20.5927368+01:00:Thread#0:B:And I click on the sign in button
+2019-10-23T09:39:21.7583679+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheSignInButton() (1.2s)
+2019-10-23T09:39:21.7593219+01:00:Thread#0:B:Then I should see the correct related error message
+2019-10-23T09:39:22.1351204+01:00:Thread#0:T:error:   Expected string length 30 but was 14. Strings differ at index 0.
+2019-10-23T09:39:22.1570651+01:00:Thread#0:T:  Expected: "incorrect username or password"
+2019-10-23T09:39:22.1620995+01:00:Thread#0:T:  But was:  "wrong password"
+2019-10-23T09:39:22.1680208+01:00:Thread#0:T:  -----------^
+2019-10-23T09:39:22.1899130+01:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2019-10-23T09:39:22.1970096+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-23T09:39:22.1970096+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-10-23T09:39:22.1970096+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-10-23T09:39:22.1970096+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-23T09:39:22.1970096+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-10-23T09:39:22.1970096+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-10-23T09:39:22.1970096+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-10-23T09:39:22.1970096+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-10-23T09:39:22.1970096+01:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-10-23T09:39:22.4160804+01:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 13.2863811 seconds
+2019-10-23T09:39:22.4290339+01:00:Thread#0: Test #6/1 is started on thread #0
+2019-10-23T09:39:27.6270246+01:00:Thread#0:B:Given I am on the home page
+2019-10-23T09:39:31.1636601+01:00:Thread#0:T:done: LoginSteps.GivenIAmOnTheHomePage() (3.5s)
+2019-10-23T09:39:31.1779845+01:00:Thread#0:B:And Input invalid email
+2019-10-23T09:39:33.3980242+01:00:Thread#0:T:done: LoginSteps.GivenInputInvalidEmail() (2.2s)
+2019-10-23T09:39:33.4060011+01:00:Thread#0:B:And I click on the sign in button
+2019-10-23T09:39:34.5993762+01:00:Thread#0:T:done: LoginSteps.GivenIClickOnTheSignInButton() (1.2s)
+2019-10-23T09:39:34.6073540+01:00:Thread#0:B:Then I should see the correct related error message
+2019-10-23T09:39:34.6941252+01:00:Thread#0:T:error: Multiple failures or warnings in test:
+2019-10-23T09:39:34.7021030+01:00:Thread#0:T:  1)   Expected string length 30 but was 14. Strings differ at index 0.
+2019-10-23T09:39:34.7072201+01:00:Thread#0:T:  Expected: "incorrect username or password"
+2019-10-23T09:39:34.7141993+01:00:Thread#0:T:  But was:  "wrong password"
+2019-10-23T09:39:34.7211830+01:00:Thread#0:T:  -----------^
+2019-10-23T09:39:34.7282197+01:00:Thread#0:T:  2)   Expected string length 30 but was 14. Strings differ at index 0.
+2019-10-23T09:39:34.7361790+01:00:Thread#0:T:  Expected: "incorrect username or password"
+2019-10-23T09:39:34.7411275+01:00:Thread#0:T:  But was:  "wrong password"
+2019-10-23T09:39:34.7463366+01:00:Thread#0:T:  -----------^
+2019-10-23T09:39:34.7640648+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-23T09:39:34.7640648+01:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-10-23T09:39:34.7640648+01:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-10-23T09:39:34.7640648+01:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-10-23T09:39:34.7640648+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-10-23T09:39:34.7640648+01:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-10-23T09:39:34.7640648+01:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-10-23T09:39:34.7640648+01:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-10-23T09:39:34.7640648+01:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-10-23T09:39:35.0121661+01:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 12.5831322 seconds
+2019-10-23T09:39:35.0224620+01:00:Thread#0: Test #6/2 is started on thread #0
+2019-10-23T09:39:50.6626919+01:00:Thread#0:Scheduler: get next test for thread 0
+2019-10-23T09:39:50.6626919+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-23T09:39:50.6626919+01:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-10-23T09:39:50.6626919+01:00:Thread#0:Scheduler: No more tests for thread
+2019-10-23T09:39:50.6835851+01:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 15.6611231 seconds
+2019-10-23T09:39:50.7829743+01:00:Appdomain Disposed
+2019-10-23T09:39:50.7879514+01:00:Trying to cancel thread
+2019-10-23T09:39:50.7890058+01:00:Thread cancelled
+2019-10-23T09:39:50.8049061+01:00:Thread#-1:Scheduler: get next test for thread -1
+2019-10-23T09:39:50.8049061+01:00:Thread#:Scheduler: at the end of normal test queue
+2019-10-23T09:39:50.8049061+01:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-10-23T09:39:50.8139484+01:00;Thread#13;Info;test run finished
+2019-10-23T09:39:50.8148818+01:00;Thread#13;Info;publishing test results
+2019-10-23T09:39:50.8239026+01:00;Thread#13;Info;test results published
+2019-10-23T09:39:50.8239026+01:00;Thread#13;Info;generating reports
+2019-10-23T09:39:51.2950935+01:00;Thread#13;Info;Starting external report generation process
+2019-10-23T09:39:53.8996056+01:00;Thread#13;Info;Successfully generated reports.
+2019-10-23T09:39:53.9014829+01:00;Thread#13;Info;Successfully generated reports
+2019-10-23T09:39:53.9111597+01:00:Total: 1 (test executions: 3)
+2019-10-23T09:39:53.9137930+01:00:Succeeded: 0
+2019-10-23T09:39:53.9137930+01:00:Ignored: 0
+2019-10-23T09:39:53.9147540+01:00:Pending: 0
+2019-10-23T09:39:53.9147540+01:00:Skipped: 0
+2019-10-23T09:39:53.9153451+01:00:Failed: 1
+2019-10-23T09:39:53.9267710+01:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-10-23T09:39:53.9273899+01:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\edbox\Documents\SpartaGlobal\RedditTestProject\TestResults\Unnamed project__2019-10-23T093900.html'
+========== End of log file ==========

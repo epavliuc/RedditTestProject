@@ -47,10 +47,18 @@ namespace RedditTestProject.Pages
         [Given(@"Input invalid password")]
         public void GivenInputInvalidPassword()
         {
-            page.UsernameInput();
+            page.ValidUsernameInput();
             page.InvalidPasswordInput();
         }
-        
+
+        [Given(@"Input invalid email")]
+        public void GivenInputInvalidEmail()
+        {
+            page.InvalidUsernameInput();
+            page.ValidPasswordInput();
+        }
+
+
         [Then(@"I should see the username on the homepage")]
         public void ThenIShouldSeeTheUsernameOnTheHomepage()
         {
@@ -62,6 +70,13 @@ namespace RedditTestProject.Pages
         {
             Assert.AreEqual("wrong password", page.InvalidPassword());
         }
+
+        [Then(@"I should see the correct related error message")]
+        public void ThenIShouldSeeTheCorrectRelatedErrorMessage()
+        {
+            Assert.AreEqual("incorrect username or password", page.InvalidPassword());
+        }
+
 
         [Scope(Feature = "Login")]
         [AfterScenario]
